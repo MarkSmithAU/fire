@@ -1,0 +1,19 @@
+[project]
+name = "claudefire"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Mark Smith", email = "36433516+MarkSmithAU@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "moderngl>=5.13.0",
+    "pygame-ce>=2.5.8",
+]
+
+[project.scripts]
+claudefire = "claudefire:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1"]
+build-backend = "uv_build"
